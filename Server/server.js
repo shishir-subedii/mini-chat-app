@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
+require('dotenv').config();
 
 // Use your local machine's IP address to make the server accessible on the local network
 const port = process.env.PORT || 5000;
